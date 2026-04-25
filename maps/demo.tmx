@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="15" height="8" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="7">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="15" height="8">
+  <data encoding="base64" compression="zlib">
+   eJyd0NEJgCAQgOET7KHIWqGHBrlRHMVRHMVRGqVf9CEiURI+TvSOOzUiYkQClK3MRYAiweez3poGchp1Cf5nbczRYX3YBuvzu84PSyPfFRHJvWaud6FGbfXcyYEi4sIxOK7YIkCREG3n726dHQ3f
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="15" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgIUCvcxIbH5KHTJMAAAZ1AAX
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="15" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjaQBCIBaCYG4k9CiAAAGXcAF0=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="3" name="thing" x="704" y="64" width="128" height="128"/>
+  <object id="5" name="anotherThing" x="768" y="320" width="128" height="128"/>
+ </objectgroup>
+</map>
