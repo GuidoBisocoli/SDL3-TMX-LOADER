@@ -20,4 +20,4 @@ This is based on [tmxlite by fallahn](https://github.com/fallahn/tmxlite), he ma
 - Add the code (\hdr and \src folders)
 - Build it and run it
 
-You can also download it and test it from Releases
+You can also download it and test it from [Releases](https://github.com/GuidoBisocoli/SDL3-TMX-LOADER/releases/tag/v1.0)
