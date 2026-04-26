@@ -6,7 +6,7 @@
 - Supports flipping of tiles (x, y and diagonal)
 - Loads render layers and object layers
 - Multiple tilesets per map
-- Draws 60 times per second (avoid stuttering)
+- Updates 60 times per second
 
 This is based on and uses [tmxlite by fallahn](https://github.com/fallahn/tmxlite), he made some great samples for SDL2 and SFML so I grabbed the SDL2 sample and migrated it to SDL3 but it didn't supported flipping of tiles and scrolling, I added those from the SFML sample doing the necessary changes for SDL.
 
