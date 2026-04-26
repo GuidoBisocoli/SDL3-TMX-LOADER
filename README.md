@@ -12,12 +12,13 @@ This is based on and uses [tmxlite by fallahn](https://github.com/fallahn/tmxlit
 
 # Usage - Visual Studio 2022
 - Create a Solution
-- Add SDL3 Project to it
+- Copy all folders to the Project folder
+- Add SDL3 Project to the Solution
 - Open Project Properties
-- On C/C++ point to SDL3\include, $(ProjectDir)hdr and tmxLite \include and \src
-- On Linker/General point to $(ProjectDir)lib
-- On Linker/Input add libtmxlite-s.lib (libtmxlite-s-d.lib for Debug)
-- Add the code (\hdr and \src folders)
-- Build it and run it
+  - On C/C++ point to SDL3\include, $(ProjectDir)hdr, SDL3_image-3.x.y\include and tmxLite\include and tmxLite\src
+  - On Linker/General point to $(ProjectDir)lib and SDL3_image-3.x.y\lib\$(LibrariesArchitecture)
+  - On Linker/Input add SDL3_Image.lib and libtmxlite-s.lib (libtmxlite-s-d.lib for Debug)
+- Add the code (\hdr and \src folders) to the Project
+- Build and run it
 
 You can also download it and test it from [Releases](https://github.com/GuidoBisocoli/SDL3-TMX-LOADER/releases/tag/v1.0)
