@@ -14,9 +14,9 @@ This is based on and uses [tmxlite by fallahn](https://github.com/fallahn/tmxlit
 - Create a Solution
 - Add SDL3 Project to it
 - Open Project Properties
-- On C/C++ point to SDL3\include, $(ProjectDir)hdr, SDL3_image-x-y-z\include and tmxLite include and src
-- On Linker/General point to SDL3_image-x-y-z\lib and $(ProjectDir)lib
-- On Linker/Input add SDL3_image.lib and libtmxlite-s.lib (libtmxlite-s-d.lib for Debug)
+- On C/C++ point to SDL3\include, $(ProjectDir)hdr and tmxLite \include and \src
+- On Linker/General point to $(ProjectDir)lib
+- On Linker/Input add libtmxlite-s.lib (libtmxlite-s-d.lib for Debug)
 - Add the code (\hdr and \src folders)
 - Build it and run it
 
