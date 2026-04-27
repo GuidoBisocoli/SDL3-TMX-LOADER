@@ -22,3 +22,6 @@ This is based on and uses [tmxlite by fallahn](https://github.com/fallahn/tmxlit
 - Build and run it
 
 You can also download it and test it from [Releases](https://github.com/GuidoBisocoli/SDL3-TMX-LOADER/releases/tag/v1.0)
+
+# Improvements
+- Store in visibleMapVertexData only the visible Vertices, now storing the entire map, see MapLayer::update(...)
