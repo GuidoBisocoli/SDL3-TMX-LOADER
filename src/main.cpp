@@ -167,6 +167,9 @@ int main( int argc, char* args[] )
 
 			view.update(x, y);
 
+			for (const auto& l : renderLayers)
+				l->update(view.getRect());
+
 			elapsed = 0.0;
 		}
 
@@ -177,10 +180,8 @@ int main( int argc, char* args[] )
 			background.renderAsBackground(Renderer, screenWidth, screenHeight);
 
 			// update and draw layers
-			for (const auto& l : renderLayers) {
-				l->update(view.getRect());
+			for (const auto& l : renderLayers)
 				l->draw(Renderer);
-			}
 
 			// draw player
 			player.texture.render(Renderer, player.texture.getRect(), player.onScreenRect, 0.f);
